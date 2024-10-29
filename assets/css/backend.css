@@ -1,0 +1,691 @@
+.klockjatten_category_container .klock_brand_loader {width: 100%;}
+.klock_import_product{  padding: 20px;  display:none; }
+.klockjatten_category_container .klock_brand_loader { display: block; margin-left: auto; margin-right: auto; width: 100%; }
+.klock_upload_btn {    width: 100%;    display: inline-flex;}
+.klock_loader,.klock_update_loader {  display:none;  border: 5px solid #f3f3f3;  border-radius: 50%;  border-top: 5px solid #3498db;  width: 30px;  height: 30px;  -webkit-animation: spin 2s linear infinite; /* Safari */  animation: spin 2s linear infinite;}
+span.klock_load_process,span.klock_update_process {    padding: 5px;    font-weight: 700;}
+@-webkit-keyframes spin {  
+0% { -webkit-transform: rotate(0deg); }  
+100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {  
+0% { transform: rotate(0deg); }  
+100% { transform: rotate(360deg); }
+}
+/* .setting-section_form {
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: 0 0 40px 0 rgba(0,0,0,0.2);
+    padding: 2px 40px 40px;
+    width: 50%;
+    margin-top: 40px;
+} */
+.setting-section_form ul.multi-column label {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-right: 10px;
+    display: block;
+    margin: 0 0 10px 0;
+}
+.klock_similr h2,
+ {
+    font-weight: 700;
+}
+.klock_similr h2 {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.klock_similr p,.klock_similr ul li {
+    font-weight: 500;
+}
+
+.klock_similr ul li {
+    margin-bottom: 10px;
+}
+.klockjatten_single_category_container .multiselect.klock-brand-select {
+    width: 100%;
+}
+.klockjatten_category_container .select2-container {
+    width: 100%!important;
+}
+.klockjatten_category_container .select2-container--default .select2-selection--multiple 
+ input.select2-search__field {
+    margin-top: 0;
+}
+.klockjatten_category_container .select2-container--default .select2-selection--multiple li.select2-search {
+    margin-bottom: 0;
+}
+ul.multi-column li {
+    margin: 19px 0 0 0;
+    width: 48%;
+}
+.setting-section_form ul.multi-column input[type="text"] {
+    width: 100%;
+}
+
+ul.multi-column {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+	
+}
+input.klock_settings_btn {
+    background: #23282d;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 10px 24px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #fff;
+	margin: 20px 0 0 0;
+    box-shadow: 0 0 9px rgba(0,0,0,0.2);
+    cursor: pointer;
+    font-weight: 500;
+}
+.klock_brand_save_btn{
+	background: #23282d;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 17px 40px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    margin: 10px 0 0 0;
+    box-shadow: 0 0 9px rgba(0,0,0,0.2);
+	cursor: pointer;
+}
+.brand_name_select_sec h3 {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: 700;
+	color:#2373a9;
+}
+
+.brand_name_select_sec .api_error {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: 700;
+	color:#f45a5a;
+}
+
+.brand_name_select_sec1 h3 {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: 700;
+	color:#2373a9;
+}
+
+p.success_msg_brand {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background: #377f00;
+    padding: 10px 0;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.2);
+    width: 500px;
+    margin: 15px auto;
+}
+form.klock_brand_name_form {
+    box-shadow: 0 0 9px rgba(0,0,0,0.2);
+    padding: 1px 0 90px 0;
+    margin: 0 auto;
+    width: 60%;
+	height:190px;
+	margin-top:4%;
+}
+
+.klockjatten_category_container .select2-container {
+  min-width: 400px;
+}
+
+.klockjatten_category_container .select2-results__option {
+  padding-right: 20px;
+  vertical-align: middle;
+}
+.klockjatten_category_container .select2-results__option:before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  height: 20px;
+  width: 20px;
+  border: 2px solid #e9e9e9;
+  border-radius: 4px;
+  background-color: #fff;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+.klockjatten_category_container .select2-results__option[aria-selected=true]:before {
+  font-family:fontAwesome;
+  content: "\f00c";
+  color: #fff;
+  background-color: #f77750;
+  border: 0;
+  display: inline-block;
+  padding-left: 3px;
+}
+.klockjatten_category_container .select2-container--default .select2-results__option[aria-selected=true] {
+	background-color: #fff;
+}
+.klockjatten_category_container .select2-container--default .select2-results__option--highlighted[aria-selected] {
+	background-color: #eaeaeb;
+	color: #272727;
+}
+.klockjatten_category_container .select2-container--default .select2-selection--multiple {
+	margin-bottom: 10px;
+}
+.klockjatten_category_container .select2-container--default.select2-container--open.select2-container--below .select2-selection--multiple {
+	border-radius: 4px;
+}
+.klockjatten_category_container .select2-container--default.select2-container--focus .select2-selection--multiple {
+	border-color: #f77750;
+	border-width: 2px;
+}
+.klockjatten_category_container .select2-container--default .select2-selection--multiple {
+	border-width: 2px;
+}
+.klockjatten_category_container .select2-container--open .select2-dropdown--below {
+	
+	border-radius: 6px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+}
+.klockjatten_category_container .select2-selection .select2-selection--multiple:after {
+	content: 'hhghgh';
+}
+/* select with icons badges single*/
+.klockjatten_category_container .select-icon .select2-selection__placeholder .badge {
+	display: none;
+}
+.klockjatten_category_container .select-icon .placeholder {
+	display: none;
+}
+.klockjatten_category_container .select-icon .select2-results__option:before,
+.klockjatten_category_container .select-icon .select2-results__option[aria-selected=true]:before {
+	display: none !important;
+	/* content: "" !important; */
+}
+.klockjatten_category_container .select-icon  .select2-search--dropdown {
+	display: none;
+}
+
+.klockjatten_single_category_container {
+    display: flex;
+}
+/* .klockjatten_category_container {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: 0 0 40px #22222252;
+    padding: 40px 50px;
+    height: auto;
+} */
+.klockjatten_category_container {
+    padding: 0 40px;
+}
+.klockjatten_category_primary_container{
+	display:none;
+}
+.klockjatten_category_name {
+    width: 20%;	font-weight:bold;	
+    text-align: left;
+}
+
+input.klock_settings_btn.klock_upload_credentials_btn {
+    margin: 3px;
+}
+.klock_center,
+.setting-section_form {
+    margin: 0 auto;
+    margin-top: 0px;
+    box-shadow: 0 0 12px 0 rgba(0, 54, 90 , 0.1);
+    padding: 2px 40px 40px;
+    width: 90%;
+    max-width: calc(760px - 20px);
+    margin-top: 40px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.setting-section_form {
+    padding: 2px 40px 25px;
+}
+.section-style-common:last-of-type {
+    padding-bottom: 20px;
+    border-bottom: 0;
+}
+.klock_center .wrap {
+    margin: 10px 0px 0 0px;
+}
+.klock_center .form-table th {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-right: 10px;
+    display: block;
+    margin: 0 0 10px 0;
+        padding: 0;
+}
+.klock_center .form-table td {padding: 0px;}
+.klock_center .form-table tr:first-child {width:100%;}
+.klock_center .form-table tr {width:48%;float: left;margin: 19px 0 0 0;}
+.klock_center .form-table tr:nth-child(odd) {float: right;}
+.klock_center .form-table tr td select {width:100%;max-width: 100rem}
+.klock_center .form-table tr td {display: block;}
+.klock_center .form-table.klock-tl tr td input, .klock_center .form-table.klock_inner tr td input, .klock_center .form-table.klock_inner tr td textarea {width:100%;}
+.klock_center #submit {
+  background: #23282d;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 8px 20px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    margin: 20px 0 0 0;
+    box-shadow: 0 0 9px rgba(0,0,0,0.2);
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.klock_center .submit {text-align: center;margin-top: 0px;padding-bottom: 0px;}
+.klock_center .form-table.klock_radio th, .klock_center .form-table.klock_radio tr td{    display: table-cell;}
+.klock_center .form-table.klock_inner tr:first-child, .klock_center .form-table.klock_inner tr:nth-child(2) {width:100%;}
+.klock_center .form-table.klock_inner tr:last-child {float: left;}
+.klock_center .form-table.klock_radio{margin-bottom: 35px;}
+.klock_center_full {width: calc(100% - 100px);}
+.klock_100 {width:100%;display: block;}
+.klock_style_tab > li {
+    padding: 0;
+    border-right: 1px solid #fff;
+    cursor: pointer;
+    width: 20%;
+    margin-bottom: 0;
+}
+.klock_style_tab > li:last-child {
+    border-right: 0;
+}
+.klock_100.klock_style_content {
+    border: 1px solid #dce4e8;
+    padding: 20px;
+    max-width: 100%;
+    width: auto;
+    border-top: 0;
+}
+.klock_list.klock_style_tab {
+    display: flex;
+    display: -ms-flexbox;
+    align-items: center;
+    margin: 0;
+}
+.klock_style_tab > li > a {
+    color: #23282d;
+    font-size: 1.3em;
+    margin: 0;
+    display: block;
+    font-weight: 600;
+    padding: 14px 20px;
+    text-align: center;
+    background-color:#dfe6ef;
+    text-decoration:none;
+}
+.klock_style_tab > li > a.active {
+    background-color: #23282d;
+    color: #fff;
+}
+/* .klock_100 ul li.active {background-color: #fff;border-bottom: 1px solid #f1f1f1;} */
+.klock_similr {text-align: left;}
+.klock_similr h2 {
+  font-size: 20px;
+    margin: 25px 0px;
+    display: block;
+}
+.klock_similr p {font-size: 15px;}
+.klock_100 .klock_similr ul li {
+  border: none;
+    display: list-item !important;
+    list-style: outside;
+    padding: 0;
+    font-size: 15px;
+        margin-left: 20px;
+}
+.klock_p {margin-top: 0px !important;}
+.klock_stp {margin-bottom: 10px !important;}
+.klock_similr img {max-width: 75%;}
+#faq__accordian-main-wrapper {
+  line-height: 1.6;
+}
+.faq__accordion-content p {
+  margin: 0;
+}
+.faq__accordian-heading {
+  background-color: #cfd0d2;
+  padding:10px 20px 10px 20px;
+  display: block;
+  margin-bottom: 15px;
+  position: relative;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: navajowhite;
+  color: #000000;
+}
+.faq__accordian-heading.active {
+  background-color: #23282d;
+  color: #ffffff;
+}
+.faq__accordion-content {
+  display: none;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+}
+.klock_support a {
+      width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-color: #23282d;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 37px;
+}
+.klock_center .form-table.klock_general-setting .klock_gn_set {
+    width: 100%;
+	float: unset;
+}
+table.form-table.klock_radio.klock_general-setting {
+    margin-top: 22px;
+    margin-bottom: 0px;
+}
+table.form-table.table_style_klock_setting tr td {
+    text-align: right;
+}
+.klock_center .form-table.klock_radio.klock_general-setting th, 
+.klock_center .form-table.klock_radio.klock_general-setting tr td {
+    padding-bottom: 12px;
+	text-transform:none;
+}
+.klock_dropshiping_style th {
+    text-transform: capitalize!important;
+    width: auto;
+    padding-right: 20px!important;
+}
+table.form-table.klock_radio.klock_dropshiping_style {
+    margin-bottom: 0;
+}
+table.form-table.klock_inner th {
+    text-transform: capitalize;
+}
+.klock_center .form-table.klock_radio.klock_general-setting th .short-size {
+    text-transform: lowercase;
+    min-width: 22px;
+    display: inline-block;
+}
+table.form-table.klock-tl th {
+    text-transform: capitalize;
+}
+.klock_general-setting input[type=checkbox],
+.klock_general-setting.form-table input[type=radio] {
+    border: 1px solid #d2d2d2;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+.klock_general-setting input[type=checkbox]:checked::before {
+    margin: 0px 0px 0 -2px;
+    height: 20px;
+    width: 20px;
+}
+.klock_center h2.title {
+    font-size: 19px;
+    margin-bottom: 10px;
+    display: block;
+    text-align: left;
+    font-weight: 700;
+}
+table.form-table.klock_inner input {
+    border: 1px solid #ddd;
+    height: 44px;
+    border-radius:0;
+}
+table.form-table.klock_inner textarea {
+    border: 1px solid #ddd;
+    height: 180px;
+    resize: none;
+    border-radius:0;
+}
+.brand_name_select_sec1.brand-title-sec h3 {
+    padding: 30px 0 0px;
+    font-size: 22px;
+    position: relative;
+    margin-bottom: 5px;
+}
+.klockjatten_category_container .select2-container--default .select2-selection--multiple {
+    border-width: 2px;
+    border: 1px solid #ddd;
+    padding: 2px 5px;
+    font-size: 16px;
+}
+.klockjatten_category_name {
+    font-size: 16px;
+    padding-top: 5px;
+	min-width:120px;
+}
+.klockjatten_category_container .select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: #2373a9;
+    border: 1px solid #2373a9;
+    border-radius: 2px;
+    padding: 3px 6px;
+    color: #fff;
+	font-size: 13px;
+}
+.klockjatten_category_container .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    color: #fff;
+    margin-right: 3px;
+}
+.klock_brand_save_btn {
+    padding: 10px 40px;
+    font-size: 18;
+    letter-spacing: 1px;
+}
+.wp-core-ui .form-table.klock-tl select {
+    border-color: #ddd;
+    padding: 7px 24px 7px 8px;
+}
+.klock_center .form-table.klock-tl tr td input {
+    height: 44px;
+    border-color: #ddd;
+    border-radius: 2px;
+}
+.setting-section_form ul.multi-column li input {
+    border-color: #ddd;
+    height: 44px;
+    border-radius: 2px;
+}
+.setting-section_form .cron_setting input {
+    border-color: #ddd;
+    background-color: #fff;
+    height: 42px;
+    border-radius: 2px;
+    max-width: 100%;
+    display: block;
+    width: 100%;
+    margin: 12px 0 20px;
+}
+.setting-section_form .tooltip button {
+    background-color: #000;
+    border: 0;
+    color: #fff;
+    padding: 10px 24px;
+    line-height: 1;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    cursor: pointer;
+    box-shadow: 0 0 9px rgba(0,0,0,0.2);
+    font-weight:500;
+}
+.setting-section_form .cron_setting .labelStyleprod strong {
+    display: block;
+    margin-bottom: 0;
+    font-size: 14px;
+    color:#151515;
+}
+span.info-detail-style {
+    position: relative;
+    margin-left: 8px;
+    display: inline-block;
+    vertical-align: baseline;
+    white-space: normal;
+}
+.labelStyleprod span.info-detail-style{
+    vertical-align: middle;
+}
+span.toltip-show-style {
+    position: absolute;
+    left: 24px;
+    top: 50%;
+    background-color: rgba(0,0,0,0.82);
+    color: #ffff;
+    font-size: 13px;
+    font-weight: 400;
+    min-width: 220px;
+    padding: 10px;
+    border-radius: 4px;
+    visibility: hidden;
+    opacity: 0;
+    text-transform: none;
+    -webkit-transition: 0.38s ease-in-out 0s all;
+    -moz-transition: 0.38s ease-in-out 0s all;
+    transition: 0.38s ease-in-out 0s all;
+    -webkit-transform: translateY(-65%);
+    -moz-transform: translateY(-65%);
+    transform: translateY(-65%);
+    line-height: 1.6;
+    text-align:left;
+    z-index:999;
+}
+span.info-detail-style:hover span.toltip-show-style {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+span.info-detail-style i {
+    cursor: pointer;
+    color: #2373a9;
+    font-size:16px;
+}
+span.toltip-show-style:before {
+    position: absolute;
+    content: '';
+    border-right: 8px solid rgba(0,0,0,0.82);
+    border-bottom: 8px solid transparent;
+    border-top: 8px solid transparent;
+    z-index: 99;
+    left: -8px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.klock_center.klock_center_style,
+.setting-section_form{
+    padding-left:0;
+    padding-right:0;
+}
+.section-style-common {
+    padding: 40px 40px;
+    border-bottom: 1px solid #efefef;
+}
+.klock_center  .section-style-common h2.title {
+    margin-top: 0;
+}
+.form-api-setting {
+    padding: 0 40px 30px;
+}
+h3.sub-title-section {
+    margin: 0;
+    font-size: 20px;
+}
+p.content-section {
+    font-size: 15px;
+    color: #444444;
+}
+.sec-title-main{
+    padding:0 40px;
+}
+.labelStyleprod {
+    padding: 20px 40px;
+}
+.labelStyleprod:nth-child(odd),
+.section-divider-bg:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+.cron_setting {
+    padding: 30px 0 0;
+    border-top: 1px solid #efefef;
+}
+.note-content-style {
+    padding: 20px 40px 0;
+}
+.note-content-style p {
+    margin: 0;
+    font-size: 14px;
+    color: #151515;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+}
+.klock_100 ul li a:focus{
+    text-decoration: none;
+    outline:0;
+    box-shadow:none;
+}
+.hide{
+    display:none;
+}
+.activeTab{
+    display:block;
+}
+table.form-table tr.klock_gn_set th {
+    position: relative;
+    white-space:normal!important;
+    width:auto;
+    text-transform: none;
+}
+table.form-table.table_style_klock_setting tr td {
+    min-width: 180px;
+    vertical-align: top;
+}
+.form-table input[type=radio].not_first_side_radio{
+    margin-left:25px;
+}
+table.form-table.klock_about_publish_prod th,
+table.form-table.klock_general-setting th{
+    font-weight: 500;
+}
+.klock_center .klock_dropshiping_style.form-table tr {
+    width: 100%;
+    margin: 10px 0 0 0;
+}
+.klock_center table.form-table.klock_radio.klock_about_publish_prod {
+    margin-bottom: 0;
+}
+input#btnCheck {
+    margin: 20px auto 0;
+    display: block;
+}
+@media only screen and (max-width:480px) {
+	
+	body { display:none !important;}
+}
+
+button#klock_update_product {
+    margin: 10px 0px;
+}
+
+button#klock_upload_product {
+    margin: 8px 0px; 
+}
+
+.notice-info {padding: 24px;}
